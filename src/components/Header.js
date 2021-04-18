@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import { Icon } from 'react-icons-kit'
 import {ic_keyboard_arrow_right} from 'react-icons-kit/md/ic_keyboard_arrow_right'
 import { Button } from './Button'
+ 
 
 
 const Header = () => {
@@ -36,7 +37,7 @@ const Logo = styled.img`
     position: absolute;
     top: 7%;
     left: 43%;
-    translate: transform(-50%, -50%); 
+    translate: transform(-50%, -50%);
 `;
 
 

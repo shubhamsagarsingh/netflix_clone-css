@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import TabDoor from './tabs_nav/TabDoor'
 import TabDevices from './tabs_nav/TabDevices'
 import TabPrice from './tabs_nav/TabPrice'
