@@ -13,7 +13,7 @@ const Header = () => {
         <HeaderComponent className='header-container'>
             <div className='header-top'>
                 <Logo src={logo} alt=''/>
-                <NavLink className='signIn-btn' to=''>Sign In</NavLink>
+                <NavLink className='signIn-btn' to='/login'>Sign In</NavLink>
             </div>
 
             <div className='header-content'>

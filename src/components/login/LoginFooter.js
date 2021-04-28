@@ -6,41 +6,23 @@ import {iosWorld} from 'react-icons-kit/ionicons/iosWorld'
 import {androidArrowDropdown} from 'react-icons-kit/ionicons/androidArrowDropdown'
 
 
-const Footer = () => {
+
+const LoginFooter = () => {
     return(
         <FooterContainer>
             <span style={{ margin: '15%', fontSize: '1.125rem' }}>Questions? <Link>Call 1-877-742-1335</Link></span>
             
             <div className='footer-columns'>
                 <ul>
-                    <li><Link>FAQ</Link></li>
-                    <li><Link>Investor Relations</Link></li>
-                    <li><Link>Ways to Watch</Link></li>
-                    <li><Link>Corporate Information</Link></li>
-                    <li><Link>Netflix Originals</Link></li>
+                    <li><Link>Gift Card Terms</Link></li>
                 </ul>
 
                 <ul>
-                    <li><Link>Help Center</Link></li>
-                    <li><Link>Jobs</Link></li>
                     <li><Link>Terms of Use</Link></li>
-                    <li><Link>Contact Us</Link></li>
                 </ul>
 
-
                 <ul>
-                    <li><Link>Account</Link></li>
-                    <li><Link>Redeem Gift Cards</Link></li>
-                    <li><Link>Privacy</Link></li>
-                    <li><Link>Speed Test</Link></li>
-                </ul>
-
-
-                <ul>
-                    <li><Link>Media Center</Link></li>
-                    <li><Link>Buy Gift Cards</Link></li>
-                    <li><Link>Cookie Preferences</Link></li>
-                    <li><Link>Legal Notices</Link></li>
+                    <li><Link>Privacy Statement</Link></li>
                 </ul>
             </div>
 
@@ -57,15 +39,17 @@ const Footer = () => {
 
 
 
-export default Footer
+export default LoginFooter
 
 
 
 const FooterContainer = styled.footer`
-    background: var(--main-deep-dark);
-    padding-top: 10rem;
+    justify-content: center;
+    background: rgba(0,0,0,0.8);
+    padding-top: 2rem;
     padding-bottom: 3rem;
-    color: #999;
+    position: relative;
+    z-index: 5;
 
     .footer-columns{
         width: 70%;
